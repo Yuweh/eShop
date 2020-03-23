@@ -12,6 +12,11 @@
 		909675932428519A001DA391 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 909675912428519A001DA391 /* Main.storyboard */; };
 		909675952428519E001DA391 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 909675942428519E001DA391 /* Assets.xcassets */; };
 		909675982428519E001DA391 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 909675962428519E001DA391 /* LaunchScreen.storyboard */; };
+		909675A6242852DD001DA391 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909675A5242852DD001DA391 /* AppDelegate.swift */; };
+		909675A8242852DD001DA391 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909675A7242852DD001DA391 /* ViewController.swift */; };
+		909675AB242852DD001DA391 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 909675A9242852DD001DA391 /* Main.storyboard */; };
+		909675AD242852E0001DA391 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 909675AC242852E0001DA391 /* Assets.xcassets */; };
+		909675B0242852E0001DA391 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 909675AE242852E0001DA391 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,10 +27,24 @@
 		909675942428519E001DA391 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		909675972428519E001DA391 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		909675992428519E001DA391 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		909675A3242852DD001DA391 /* eShopAdmin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eShopAdmin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		909675A5242852DD001DA391 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		909675A7242852DD001DA391 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		909675AA242852DD001DA391 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		909675AC242852E0001DA391 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		909675AF242852E0001DA391 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		909675B1242852E0001DA391 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		909675872428519A001DA391 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		909675A0242852DD001DA391 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,6 +58,7 @@
 			isa = PBXGroup;
 			children = (
 				9096758C2428519A001DA391 /* eShop */,
+				909675A4242852DD001DA391 /* eShopAdmin */,
 				9096758B2428519A001DA391 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,6 +67,7 @@
 			isa = PBXGroup;
 			children = (
 				9096758A2428519A001DA391 /* eShop.app */,
+				909675A3242852DD001DA391 /* eShopAdmin.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -62,6 +83,19 @@
 				909675992428519E001DA391 /* Info.plist */,
 			);
 			path = eShop;
+			sourceTree = "<group>";
+		};
+		909675A4242852DD001DA391 /* eShopAdmin */ = {
+			isa = PBXGroup;
+			children = (
+				909675A5242852DD001DA391 /* AppDelegate.swift */,
+				909675A7242852DD001DA391 /* ViewController.swift */,
+				909675A9242852DD001DA391 /* Main.storyboard */,
+				909675AC242852E0001DA391 /* Assets.xcassets */,
+				909675AE242852E0001DA391 /* LaunchScreen.storyboard */,
+				909675B1242852E0001DA391 /* Info.plist */,
+			);
+			path = eShopAdmin;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,6 +118,23 @@
 			productReference = 9096758A2428519A001DA391 /* eShop.app */;
 			productType = "com.apple.product-type.application";
 		};
+		909675A2242852DD001DA391 /* eShopAdmin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 909675B2242852E0001DA391 /* Build configuration list for PBXNativeTarget "eShopAdmin" */;
+			buildPhases = (
+				9096759F242852DD001DA391 /* Sources */,
+				909675A0242852DD001DA391 /* Frameworks */,
+				909675A1242852DD001DA391 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = eShopAdmin;
+			productName = eShopAdmin;
+			productReference = 909675A3242852DD001DA391 /* eShopAdmin.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -95,6 +146,9 @@
 				ORGANIZATIONNAME = "Xi Apps";
 				TargetAttributes = {
 					909675892428519A001DA391 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					909675A2242852DD001DA391 = {
 						CreatedOnToolsVersion = 10.3;
 					};
 				};
@@ -113,6 +167,7 @@
 			projectRoot = "";
 			targets = (
 				909675892428519A001DA391 /* eShop */,
+				909675A2242852DD001DA391 /* eShopAdmin */,
 			);
 		};
 /* End PBXProject section */
@@ -128,6 +183,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		909675A1242852DD001DA391 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				909675B0242852E0001DA391 /* LaunchScreen.storyboard in Resources */,
+				909675AD242852E0001DA391 /* Assets.xcassets in Resources */,
+				909675AB242852DD001DA391 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -137,6 +202,15 @@
 			files = (
 				909675902428519A001DA391 /* ViewController.swift in Sources */,
 				9096758E2428519A001DA391 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9096759F242852DD001DA391 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				909675A8242852DD001DA391 /* ViewController.swift in Sources */,
+				909675A6242852DD001DA391 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,6 +229,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				909675972428519E001DA391 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		909675A9242852DD001DA391 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				909675AA242852DD001DA391 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		909675AE242852E0001DA391 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				909675AF242852E0001DA391 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -314,6 +404,42 @@
 			};
 			name = Release;
 		};
+		909675B3242852E0001DA391 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q3EJJ6M7CU;
+				INFOPLIST_FILE = eShopAdmin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.XiApps.eShopAdmin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		909675B4242852E0001DA391 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q3EJJ6M7CU;
+				INFOPLIST_FILE = eShopAdmin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.XiApps.eShopAdmin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -331,6 +457,15 @@
 			buildConfigurations = (
 				9096759D2428519E001DA391 /* Debug */,
 				9096759E2428519E001DA391 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		909675B2242852E0001DA391 /* Build configuration list for PBXNativeTarget "eShopAdmin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				909675B3242852E0001DA391 /* Debug */,
+				909675B4242852E0001DA391 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
