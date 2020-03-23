@@ -19,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg_left1" translatesAutoresizingMaskIntoConstraints="NO" id="04v-3R-hpO">
-                                <rect key="frame" x="0.0" y="0.0" width="414.00000000000023" height="916"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="916"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="vrO-O5-iYX">
                                 <rect key="frame" x="20" y="108" width="374" height="403.5"/>
@@ -155,7 +155,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg_left1" translatesAutoresizingMaskIntoConstraints="NO" id="507-Si-h71">
-                                <rect key="frame" x="0.0" y="0.0" width="414.00000000000023" height="916"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="916"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="Tlw-0L-Jfe">
                                 <rect key="frame" x="20" y="108" width="374" height="328.5"/>
